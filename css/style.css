@@ -21,13 +21,14 @@ body{
     height: 20%;
 }
 .header-title{
-    font-size: 45px;
-    margin: 20px 0px;
+    font-size: 40px;
+    margin: 20px 230px;
 }
 .header-description{
-    font-size: 15px;
-    color:#0D1321;
-    margin: 20px 0px;
+    font-size: 13px;
+    margin: 20px 290px;
+    padding: 0 25px;
+    color:#252e45;
 }
 .btn-1{
     background-color:#0D1321;
@@ -38,7 +39,84 @@ body{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin: 10px 0px;
+    margin-bottom: 40px;
 }
 
 /* header section end */
+
+main{
+    max-width: 1140px;
+    margin:0 auto;
+    
+}
+
+.why-development{
+    margin:80px 97px ;
+    padding:35px;
+    background-color:#EBEBFF ;
+    border-radius: 16px;
+}
+.development{
+    padding:10px 80px;
+    text-align: center;
+}
+.h-tile{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight:700;
+}
+.p-description{
+    font-size: 13px;
+}
+
+/* card part */
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px 48px;
+    border-radius: 15px;
+    margin-top: 32px;
+}
+
+.card-font-h{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #0D1321;
+}
+.card-font-p{
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.card-btn{
+    font-family: "Azeret Mono", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #161f34;
+    background-color: #ffff;
+    border-color: #0D1321 ;
+    padding:5px 20px ;
+}
+
+.card-image{
+    width: 270px;
+    height: 240px;
+}
+
+/* inspiration */
+.inspiration{
+    text-align:center;
+    margin:10px;
+}
+.yt-card{
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.yt-card-bg{
+    padding: 20px 48px;
+    border-radius: 15px;
+    /* background-color: rgb(213, 213, 213); */
+    box-shadow: #0D1321;
+}
