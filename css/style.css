@@ -113,6 +113,7 @@ main{
 .yt-card{
     margin: 0 auto;
     border-radius: 15px;
+    background-color: rgb(225, 225, 225);
 }
 .yt-card-bg{
     padding: 20px 48px;
@@ -120,3 +121,24 @@ main{
     /* background-color: rgb(213, 213, 213); */
     box-shadow: #0D1321;
 }
+/* My Next target part */
+.my_target{
+    text-align:center;
+    margin:10px;
+}
+.cardPart2{
+    gap: 24px;
+    border-style: ridge;
+    margin:24px 97px;
+    padding:35px;
+    background-color:#EBEBFF ;
+    border-radius: 16px;
+}
+.btn-2{
+    color:#0D1321;
+    font-weight: bold;
+}
+
+
+/* My current target */
+
